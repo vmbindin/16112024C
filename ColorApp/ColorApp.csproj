@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ColorLibrary\ColorLibrary.csproj" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>ColorApp</RootNamespace>
+    <AssemblyName>ColorApp</AssemblyName> <!-- change name for .exe .json -->
+    <TargetName>ColorApp</TargetName> <!-- change name for .dll .pdb -->
+    <DebugType>None</DebugType> <!-- remove .pdb file -->
+    <DebugSymbols>False</DebugSymbols> <!-- remove .pdb file -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>true</PublishTrimmed>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

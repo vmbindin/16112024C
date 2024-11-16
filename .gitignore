@@ -1,0 +1,8 @@
+bin/*
+obj/*
+
+ColorApp/bin/*
+ColorApp/obj/*
+
+ColorLibrary/bin/*
+ColorLibrary/obj/*
