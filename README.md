@@ -10,7 +10,8 @@ simple solution combining console app and class library
 `dotnet new list`\
 `dotnet new solution`\
 `dotnet new console -o ColorApp`\
-`dotnet new classlib -o ColorLibrary`
+`dotnet new classlib -o ColorLibrary`\
+`dotnet add ColorApp reference ColorLibrary
 
 ## add package
 
